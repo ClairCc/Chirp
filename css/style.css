@@ -38,3 +38,99 @@ body {
   margin-top: 5px;
   margin: 0 auto;
 }
+.sectionTwitter_Title {
+  margin-top: 36px;
+  margin-bottom: 8px;
+  font-weight: 800;
+  font-size: 3.6rem;
+  line-height: 43.57px;
+}
+.sectionTwitter_subtitle {
+  color: #737373;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  font-weight: 400;
+  margin-bottom: 18px;
+}
+.twitterInfo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.twitterInfo button {
+  background-color: #1da1f2;
+  outline: none;
+  border: none;
+  margin: 0 20px;
+  display: flex;
+  padding: 15px 0;
+  justify-content: center;
+  border-radius: 8px;
+  height: 60px;
+  align-items: center;
+  cursor: pointer;
+}
+.twitterInfo .register {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 21.78px;
+}
+.twitterInfo_Icon {
+  margin-right: 12px;
+}
+
+.twitterInfo_learnMore {
+  color: #1f7898;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 21.7px;
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+.flechaDerechaMas {
+  background: url("../assets/FlechaDerecha.svg") no-repeat center center;
+  background-size: cover;
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+}
+.section_people-images {
+  height: 50px;
+  margin-top: 3.2rem;
+}
+.section_people-images img {
+  height: 50px;
+}
+.section_people-images img:first-child {
+  position: relative;
+}
+.section_people-images img:nth-child(1n + 2) {
+  position: absolute;
+  left: 50px;
+}
+.section_people-images img:nth-child(3n) {
+  left: 70px;
+}
+.section_people-images img:nth-child(4n) {
+  left: 87px;
+}
+.section_people-images img:nth-child(5n) {
+  left: 107px;
+}
+.section_people p {
+  color: #737373;
+  font-size: 1.8rem;
+  font-weight: normal;
+  line-height: 3rem;
+  margin-top: 16px;
+}
+.section_people p span {
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 3rem;
+  color: #1f7898;
+}

@@ -57,11 +57,10 @@ body {
   justify-content: center;
   flex-direction: column;
 }
-.twitterInfo button {
+.twitter_button {
   background-color: #1da1f2;
   outline: none;
   border: none;
-  margin: 0 20px;
   display: flex;
   padding: 15px 0;
   justify-content: center;
@@ -70,7 +69,7 @@ body {
   align-items: center;
   cursor: pointer;
 }
-.twitterInfo .register {
+.register {
   color: #fff;
   font-weight: 600;
   font-size: 1.8rem;
@@ -241,4 +240,59 @@ body {
 }
 .plan_title {
   text-align: center;
+}
+.plans_description {
+  font-weight: 300;
+  line-height: 2.5rem;
+  font-size: 1.6rem;
+  text-align: center;
+  color: #737373;
+  margin-bottom: 4rem;
+}
+.plan_card {
+  border: 1px solid #ffad23;
+  background-color: #fbf8f3;
+  border-radius: 10px;
+  padding: 3.6rem;
+  height: auto;
+}
+.plan_card-duration {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 2.5rem;
+  color: #737373;
+  margin-bottom: 15px;
+}
+.plan_card-price {
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 2.5rem;
+}
+.plan_card-price span {
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+.plan_card-divider {
+  border: 1px solid #cecece;
+  border-radius: 20px;
+  margin: 20px 0 15px 0;
+}
+.plan_card-beneficios-lista div {
+  display: flex;
+  align-items: flex-start;
+  margin: 16px 0;
+}
+.plan_card-beneficios-lista div figure,
+.plan_card-beneficios-lista div figure img {
+  height: 20px;
+}
+.plan_card-beneficios-lista div p {
+  font-weight: 500;
+  font-size: 1.7rem;
+  color: #737373;
+  line-height: 2rem;
+  margin-left: 5px;
+}
+.plan .plan_card button {
+  width: 100%;
 }

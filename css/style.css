@@ -134,6 +134,9 @@ body {
   line-height: 3rem;
   color: #1f7898;
 }
+.caracteristicas {
+  margin-bottom: 8rem;
+}
 .caracteristicas_articulos {
   padding: 24px;
   border: solid 1px #c4c4c4;

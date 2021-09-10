@@ -134,3 +134,23 @@ body {
   line-height: 3rem;
   color: #1f7898;
 }
+.caracteristicas_articulos {
+  padding: 24px;
+  border: solid 1px #c4c4c4;
+  border-radius: 10px;
+  margin-top: 24px;
+  font-size: 1.9rem;
+  height: auto;
+}
+.caracteristicas_articulos-emojis {
+  font-size: 3.2rem;
+}
+.caracteristicas_articulos-titulo {
+  margin: 16px 0;
+  font-weight: bold;
+  font-size: 1.9rem;
+}
+.caracteristicas_articulos_subtitulo {
+  line-height: 2.5rem;
+  color: #737373;
+}

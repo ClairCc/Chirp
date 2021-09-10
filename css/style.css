@@ -7,7 +7,7 @@
 body {
   font-family: "Inter", sans-serif;
   background-color: #fbf8f3;
-  padding: 0 30px;
+  margin: 0 30px;
 }
 .header {
   width: 100%;
@@ -156,4 +156,86 @@ body {
 .caracteristicas_articulos_subtitulo {
   line-height: 2.5rem;
   color: #737373;
+}
+.clientes {
+  background-color: #d7f5f5;
+  margin: 0 -30px;
+  padding: 56px 30px;
+}
+.clientes_title {
+  font-weight: bold;
+  font-size: 3.6rem;
+  margin-bottom: 3.6rem;
+}
+.clientes_container {
+  padding: 26px;
+  background-color: #fff;
+  margin: 12px 0;
+  border-radius: 10px;
+}
+.clientes_profile,
+.clients_idk {
+  display: flex;
+}
+.clientes_profile figure:first-child,
+.clientes_profile figure:first-child img {
+  height: 50px;
+}
+.clients_idk {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.clientes_profile div {
+  margin-left: 10px;
+}
+.clientes_profile {
+  align-items: center;
+}
+.clientes_profile div h5 {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+.clientes_profile div p {
+  font-size: 1.2rem;
+  color: #737373;
+}
+.clients_idk figure,
+.clients_idk figure img {
+  height: 20px;
+}
+.clientes_clientSay p,
+.clientes_info p {
+  font-size: 1.5rem;
+  line-height: 25px;
+  color: #737373;
+}
+.clientes_clientSay {
+  margin-bottom: 16px;
+}
+.clientes_info,
+.clientes_info figure {
+  display: flex;
+}
+.clientes_info figure,
+.clientes_info figure img {
+  height: 21px;
+}
+.clientes_info figure {
+  display: flex;
+  align-items: center;
+}
+.clientes_info figure figcaption {
+  font-size: 1.5rem;
+  color: #737373;
+}
+.clientes_info img {
+  margin-right: 3px;
+}
+.clientes_info {
+  justify-content: space-between;
+}
+.clientes_info p {
+  font-weight: 300;
+  line-height: 20px;
 }

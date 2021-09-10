@@ -13,6 +13,7 @@
     />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/tablet.css" media="screen and (min-width: 760px)">
+    <link rel="stylesheet" href="./css/desktop.css" media="screen and (min-width: 1024px)">
   </head>
   <body>
     <header class="header">
@@ -32,73 +33,78 @@
         </button>
       </nav>
     </header>
-    <main class="hero">
-      <figure class="hero_figure">
-        <img class="figure_img" src="/assets/Hero.svg" alt="" />
-      </figure>
-      <figure class="hero_figure hero_figure-tablet">
-        <img class="figure_img" src="/assets/Hero Image (Tablet View).png" alt="" />
-      </figure>
-    </main>
-    <section class="sectionTwitter">
-      <h3 class="sectionTwitter_Title">La analítica de Twitter llevada a un nivel completamente nuevo.</h3>
-      <p class="sectionTwitter_subtitle" >Chirp es un conjunto de análisis de Twitter que lo ayudará a comprender mejor a su audiencia, qué tweets les gustan y, lo que es más importante, quienes son los más activos en Twitter.
-        <section class="twitterInfo">
-          <button class="twitter_button">
-            <figure class="twitterInfo_Icon"><img src="./assets/Twitter.svg" alt=""></figure>
-            <p class="register">Registrate con Twitter.</p>
-          </button>
-          <div class="container-register" >
-
-            <p class="twitterInfo_learnMore">Leer mas
-              <span class="flechaDerechaMas" ></span>
-            </p>  
-          </div>
-        </section>
-        <section class="section_people">
-          <figure class="section_people-images">
-            <img src="/assets/userAvatar01.svg" alt="">
-            <img src="/assets/userAvatar02.svg" alt="">
-            <img src="/assets/userAvatar03.svg" alt="">
-            <img src="/assets/userAvatar04.svg" alt="">
-            <img src="/assets/userAvatar05.svg" alt=""></figure>
-          <p>
-            ¡Únete a otros <span>195</span> que han analizado a sus seguidores y han programado <span>1342</span> tweets!
-          </p>
-          
-        </section>
-      </p>
-    </section>
+    <div class="hero_sectionTwitter">
+      <main class="hero">
+        <figure class="hero_figure">
+          <img class="figure_img" src="/assets/Hero.svg" alt="" />
+        </figure>
+        <figure class="hero_figure hero_figure-tablet">
+          <img class="figure_img" src="/assets/Hero Image (Tablet View).png" alt="" />
+        </figure>
+      </main>
+      <section class="sectionTwitter">
+        <h3 class="sectionTwitter_Title">La analítica de Twitter llevada a un nivel completamente nuevo.</h3>
+        <p class="sectionTwitter_subtitle" >Chirp es un conjunto de análisis de Twitter que lo ayudará a comprender mejor a su audiencia, qué tweets les gustan y, lo que es más importante, quienes son los más activos en Twitter.
+          <section class="twitterInfo">
+            <button class="twitter_button twitter_button-hero">
+              <figure class="twitterInfo_Icon"><img src="./assets/Twitter.svg" alt=""></figure>
+              <p class="register">Registrate con Twitter.</p>
+            </button>
+            <div class="container-register" >
+  
+              <p class="twitterInfo_learnMore">Leer mas
+                <span class="flechaDerechaMas" ></span>
+              </p>  
+            </div>
+          </section>
+          <section class="section_people">
+            <figure class="section_people-images">
+              <img src="/assets/userAvatar01.svg" alt="">
+              <img src="/assets/userAvatar02.svg" alt="">
+              <img src="/assets/userAvatar03.svg" alt="">
+              <img src="/assets/userAvatar04.svg" alt="">
+              <img src="/assets/userAvatar05.svg" alt=""></figure>
+            <p>
+              ¡Únete a otros <span>195</span> que han analizado a sus seguidores y han programado <span>1342</span> tweets!
+            </p>
+            
+          </section>
+        </p>
+      </section>
+    </div>
     <section class="caracteristicas">
       <h3 class="sectionTwitter_Title">Funciones que te ayudan a tuitear de forma más inteligente.
       </h3>
-      <article class="caracteristicas_articulos">
-        <span class="caracteristicas_articulos-emojis">📈</span>
-        <h4 class="caracteristicas_articulos-titulo">Analítica
-        </h4>
-        <p class="caracteristicas_articulos_subtitulo">Monitoreamos constantemente a su audiencia a medida que crece, para que pueda twittear cuando es más probable que sus seguidores estén en línea y listos para interactuar con su contenido.
-        </p>
-      </article>
-      <article class="caracteristicas_articulos">
-        <span class="caracteristicas_articulos-emojis">🤓</span>
-        <h4 class="caracteristicas_articulos-titulo">Analizador inteligente
-        </h4>
-        <p class="caracteristicas_articulos_subtitulo">Chirp reconoce automáticamente los tiempos más activos de sus seguidores y le envía notificaciones automáticamente si está perdiendo una oportunidad.
-        </p>
-      </article>
-      <article class="caracteristicas_articulos">
-        <span class="caracteristicas_articulos-emojis">🗞</span>
-        <h4 class="caracteristicas_articulos-titulo">Programado tus tweets
-        </h4>
-        <p class="caracteristicas_articulos_subtitulo">Los tweets de calidad generan toneladas de participación. Con Chirp, puede escribir tweets con anticipación y programarlos cuando es más probable que su audiencia los lea.
-        </p>
-      </article>
-      <article class="caracteristicas_articulos">
-        <span class="caracteristicas_articulos-emojis">🌑</span>
-        <h4 class="caracteristicas_articulos-titulo">Dark Mode</h4>
-        <p class="caracteristicas_articulos_subtitulo">Agradable a la vista, no importa a qué hora escribas tus Tweets. Todos los colores se eligen para asegurarse de que sus ojos estén a gusto en todo momento.
-        </p>
-      </article>
+      <div class="container_articulos">
+
+        <article class="caracteristicas_articulos">
+          <span class="caracteristicas_articulos-emojis">📈</span>
+          <h4 class="caracteristicas_articulos-titulo">Analítica
+          </h4>
+          <p class="caracteristicas_articulos_subtitulo">Monitoreamos constantemente a su audiencia a medida que crece, para que pueda twittear cuando es más probable que sus seguidores estén en línea y listos para interactuar con su contenido.
+          </p>
+        </article>
+        <article class="caracteristicas_articulos">
+          <span class="caracteristicas_articulos-emojis">🤓</span>
+          <h4 class="caracteristicas_articulos-titulo">Analizador inteligente
+          </h4>
+          <p class="caracteristicas_articulos_subtitulo">Chirp reconoce automáticamente los tiempos más activos de sus seguidores y le envía notificaciones automáticamente si está perdiendo una oportunidad.
+          </p>
+        </article>
+        <article class="caracteristicas_articulos">
+          <span class="caracteristicas_articulos-emojis">🗞</span>
+          <h4 class="caracteristicas_articulos-titulo">Programado tus tweets
+          </h4>
+          <p class="caracteristicas_articulos_subtitulo">Los tweets de calidad generan toneladas de participación. Con Chirp, puede escribir tweets con anticipación y programarlos cuando es más probable que su audiencia los lea.
+          </p>
+        </article>
+        <article class="caracteristicas_articulos">
+          <span class="caracteristicas_articulos-emojis">🌑</span>
+          <h4 class="caracteristicas_articulos-titulo">Dark Mode</h4>
+          <p class="caracteristicas_articulos_subtitulo">Agradable a la vista, no importa a qué hora escribas tus Tweets. Todos los colores se eligen para asegurarse de que sus ojos estén a gusto en todo momento.
+          </p>
+        </article>
+      </div>
     </section>
     <section class="clientes">
       <h4 class="clientes_title">Lo que dicen nuestros clientes</h4>

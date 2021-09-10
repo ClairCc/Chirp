@@ -1,0 +1,57 @@
+body {
+  margin: 0 150px;
+}
+.hero_sectionTwitter {
+  display: flex;
+}
+.hero {
+  order: 2;
+}
+.hero_figure {
+  display: flex;
+}
+.hero_figure-tablet {
+  display: none;
+}
+.section_people-images img:nth-child(1n + 2) {
+  position: absolute;
+  left: 170px;
+}
+.section_people-images img:nth-child(3n) {
+  left: 190px;
+}
+.section_people-images img:nth-child(4n) {
+  left: 210px;
+}
+.section_people-images img:nth-child(5n) {
+  left: 230px;
+}
+.twitter_button-hero {
+  width: 60%;
+}
+.sectionTwitter {
+  padding-right: 70px;
+}
+.container_articulos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container_articulos .caracteristicas_articulos {
+  width: 45%;
+  margin: 20px 10px 10px 10px;
+}
+.caracteristicas {
+  margin-top: 80px;
+}
+.clientes_container-flexbox {
+  flex-wrap: nowrap;
+}
+.clientes,
+footer {
+  margin: 0 -150px;
+  padding: 0 150px;
+}
+.plans {
+  margin: 0 140px;
+}

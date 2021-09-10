@@ -29,6 +29,9 @@ body {
 .header_figure-container .figure_image {
   width: 24px;
 }
+.header_nav {
+  display: none;
+}
 .hero,
 .hero_figure,
 .hero_figure img {
@@ -37,6 +40,9 @@ body {
   justify-content: center;
   margin-top: 5px;
   margin: 0 auto;
+}
+.hero_figure-tablet {
+  display: none;
 }
 .sectionTwitter_Title {
   margin-top: 36px;
@@ -283,7 +289,7 @@ body {
   display: flex;
   align-items: flex-start;
   margin: 16px 0;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .plan_card-beneficios-lista div figure,
 .plan_card-beneficios-lista div figure img {
@@ -317,4 +323,12 @@ footer h3 {
 .footer_terms p {
   margin: 0 10px;
   cursor: pointer;
+}
+.container_button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.container_button button {
+  width: 100%;
 }

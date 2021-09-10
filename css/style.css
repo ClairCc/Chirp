@@ -52,7 +52,7 @@ body {
   line-height: 43.57px;
 }
 .sectionTwitter_subtitle {
-  color: #737373;
+  color: #545454;
   font-size: 1.8rem;
   line-height: 3rem;
   font-weight: 400;
@@ -128,7 +128,7 @@ body {
   left: 107px;
 }
 .section_people p {
-  color: #737373;
+  color: #545454;
   font-size: 1.8rem;
   font-weight: normal;
   line-height: 3rem;
@@ -161,7 +161,7 @@ body {
 }
 .caracteristicas_articulos_subtitulo {
   line-height: 2.5rem;
-  color: #737373;
+  color: #545454;
   font-size: 1.5rem;
 }
 .clientes {
@@ -205,7 +205,7 @@ body {
 }
 .clientes_profile div p {
   font-size: 1.2rem;
-  color: #737373;
+  color: #545454;
 }
 .clients_idk figure,
 .clients_idk figure img {
@@ -215,7 +215,7 @@ body {
 .clientes_info p {
   font-size: 1.5rem;
   line-height: 25px;
-  color: #737373;
+  color: #545454;
 }
 .clientes_clientSay {
   margin-bottom: 16px;
@@ -234,7 +234,7 @@ body {
 }
 .clientes_info figure figcaption {
   font-size: 1.5rem;
-  color: #737373;
+  color: #545454;
 }
 .clientes_info img {
   margin-right: 3px;
@@ -254,7 +254,7 @@ body {
   line-height: 2.5rem;
   font-size: 1.6rem;
   text-align: center;
-  color: #737373;
+  color: #545454;
   margin-bottom: 4rem;
 }
 .plan_card {
@@ -268,7 +268,7 @@ body {
   font-size: 2rem;
   font-weight: 300;
   line-height: 2.5rem;
-  color: #737373;
+  color: #545454;
   margin-bottom: 15px;
 }
 .plan_card-price {
@@ -298,7 +298,7 @@ body {
 .plan_card-beneficios-lista div p {
   font-weight: 500;
   font-size: 1.7rem;
-  color: #737373;
+  color: #545454;
   line-height: 2rem;
   margin-left: 5px;
 }
